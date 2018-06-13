@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">  
+  <head>    
+    <title>Título de la WEB</title>    
+    <meta charset="UTF-8">
+    <meta name="title" content="Título de la WEB">
+    <meta name="description" content="Descripción de la WEB">    
+    <link href="http://dominio.com/hoja-de-estilos.css" rel="stylesheet" type="text/css"/>    
+    <style>
+h1, p, body {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  position: relative;
+  background-image: url("bg.svg"), linear-gradient(to bottom right, #575757, #070707);
+  /* background: red; /* For browsers that do not support gradients */ */
+  /* background: linear-gradient(to bottom right, red, yellow); /* Standard syntax (must be last) */ */
+}
+.box_style {
+  background: #ed3024;
+  background: linear-gradient(to right, #790b09 , #ed3024);
+  padding: 5px;
+}
+.box_style_in1 {
+  background: #464646;
+  background: linear-gradient(to right, #1e1e1e, #464647);
+  border: 1px solid #FFF;
+  padding: 15px;
+}
+.box_style_in1 h1 {
+  color: #ec1c24;
+}
+.box_style_in1 p {
+  color: #FFF;
+}
+
+header {
+  color: #FFF;
+  float: left;
+}
+header img {
+    -webkit-filter: drop-shadow( 5px 5px 5px #000 ); 
+            filter: drop-shadow( 5px 5px 5px #000 );
+}
+
+nav {
+  width: 450px;
+  background: #555;
+  padding: 15px;
+  float: right;
+}
+nav a {
+  width: 450px;
+  margin: 35px 0px 0px 0px;
+  color: #FFF;
+  text-decoration: none;
+}
+nav a:hover {
+  font-size: 25px;
+  color: #FFF;
+}
+nav span{
+  vertical-align:bottom; 
+  display:inline-block; 
+  margin-top:60px;
+}
+.box_header {
+  position: relative;
+  background-image: url("header_line.svg");
+}
+.box_clear {
+  clear: both;
+}
+.box_news {
+  position: absolute;
+  top: 190px;
+  right:0;
+  width: 450px;
+}
+.box_primary {
+  padding: 20px 20px 20px 0;
+  width: 70%;
+  background: #464646;
+  background: linear-gradient(to top right, #1e1e1e, #464647);
+}
+.box_primary_in1 {
+  height:100%;
+  overflow: hidden;
+  /* background-image: url("img_primary.jpg"); */
+  /* background-color: #cccccc; */
+  /* height: 120px; */
+  /* background-repeat: no-repeat; */
+  /* background-size: auto 600px; */
+}
+    </style>
+  </head>  
+  <body>
+    <div class="box_header">
+      <header>
+        <img src="logo.svg" alt="Logo BIONICAL"/>
+      </header>    
+      <nav>
+        <a href="http://dominio.com/seccion2.html"><span>HOME</span></a>
+        <a href="http://dominio.com/seccion2.html"><span>ABOUT US</span></a>
+        <a href="http://dominio.com/seccion2.html"><span>PRODUCTS</span></a>
+        <a href="http://dominio.com/seccion2.html"><span>CONTACT</span></a>
+      </nav>
+      <div class="box_clear"></div>
+    </div>
+
+    <div class="box_style box_news">
+      <div class="box_style_in1">
+        <h1>NEWS</h1>
+        <p>ATTENTION Becuase for fsdjlkfjasldkf jlkasjdfkljasdlkfjlasf lasjdfkjasldfjalksdf laskdj flaksjdfl kasjdlfkjasldkfjasldkfjalskdjfklsadjfkads</p>
+      </div>
+    </div>
+
+    <div class="box_primary">
+      <div class="box_primary_in1">
+        <img src="img_primary.jpg" />
+        <div class="box_style">
+          <div class="box_style_in1">
+            <h1>NEWS</h1>
+            <p>ATTENTION Becuase for fsdjlkfjasldkf jlkasjdfkljasdlkfjlasf lasjdfkjasldfjalksdf laskdj flaksjdfl kasjdlfkjasldkfjasldkfjalskdjfklsadjfkads</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <section> -->
+    <!--   <article> -->
+    <!--     <h2>CONTENIDO PRINCIPAL</h2> -->
+    <!--     <p>Este es el contenido principal de mi web</p> -->
+    <!--     <div> -->
+    <!--       <p>Aquí tenéis una imagen.</p> -->
+    <!--       <img src="http://dominio.com/imagen.jpg" alt="paisaje">           -->
+    <!--     </div> -->
+    <!--   </article>       -->
+    <!-- </section> -->
+    <!-- <aside> -->
+    <!--   <h3>Banner de publicidad</h3> -->
+    <!--   <a href="http://dominio&#45;externo.com"> -->
+    <!--     <img src="http://dominio.com/banner&#45;publicidad.png" alt="banner de publicidad"> -->
+    <!--   </a> -->
+    <!--   <h3>Testimonios</h3> -->
+    <!--   <p>Me gusta mucho esta página.</p> -->
+    <!-- </aside> -->
+    <footer>
+      <h4>Avisos legales</h4>
+    </footer>
+  </body>  
+</html>
